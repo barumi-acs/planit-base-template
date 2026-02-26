@@ -10,9 +10,9 @@ spring:
   
   datasource:
     driver-class-name: org.mariadb.jdbc.Driver
-    url: jdbc:mariadb://localhost:3306/base_db
-    username: root
-    password: root
+    url: ${SPRING_DATASOURCE_URL:jdbc:mariadb://localhost:3306/base_db}
+    username: ${SPRING_DATASOURCE_USERNAME:root}
+    password: ${SPRING_DATASOURCE_PASSWORD:root}
 
   jpa:
     hibernate:
