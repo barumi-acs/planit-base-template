@@ -2,6 +2,7 @@
  * [planit 샘플 파일 - 컨트롤러 샘플]
  * 이 클래스는 planit 글로벌 룰을 적용한 샘플 컨트롤러입니다.
  * API생성 및 soft delete생성 시 참고할 것.
+ * **나중에 삭제할 것**
  * @since 2026-02-26
  */
 package com.planit.basetemplate.sample;
